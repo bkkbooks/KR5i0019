@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0019/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5i0019/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 高上玉皇心印經
+  date: '2015-08-29 17:49:08.017852'
+  source:
+    repository: kanripo
+    path: KR5i0019
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0019_001-CK-KZ.yaml, hash: 'sha256:767618eff396338d299b2e267d2fab97d37ec1fb64e8525acc94e0b290d38bc1'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0019_001-CK-KZ.markers.yaml, hash: 'sha256:4a8284f5ae9b22e384ef621b2505eabbf973588bd5f54ac5f0319916d154acaa'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0019_01p018a
+    span:
+    - body
+    - 0
+    - 1942
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:c73ed5a528621406726e502acfe603b4efaa5120627ebc3ef63d8ac3d8d5ab3f
